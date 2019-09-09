@@ -20,3 +20,11 @@ int main(){
  printf("done \n");
  return 0;
 }
+/*
+notice how when a variable is specified as a variable w/ more memory allocated,
+there isn't a problem. however when float is formatted to a char, there is a compiler
+warning and nothing is printed.
+--
+also note that float is 3.44221134422113 but prints just as 3.442211'
+*/
+
